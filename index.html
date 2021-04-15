@@ -4,69 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css"
-head>
-<body>
-    <div class="color" style="text-align: center;">
-        <h1>Mi pagina</h1>
-        <div style="text-align: center;"></div>
-    <form>
-        <label for="nombre"></label>ingresa tu nombre</label>
-    <input id="1011092571" name="Karen" type="text" placeholder="ingresa tu nombre" required> <br><br>
+    <title>Login</title>
 
-    <label for="edad"></label>
-    <input id="edad" name="edad" type="number" min="10" max="100" placeholder="ingresa tu edad" required><br><br>
+    <!-- Estilos de CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray">
+<!--section login-->  
+<section>
+<!--contenedor del formulario-->  
+<div class="bg-white form-container">
+    <!--contenedor del titulo-->
+    <div>
+        <h1 class="text-black">iniciar sesi&oacute;n</h1>
+    </div>
+    <!-- entradas del formulario -->
+    <div class="input-container">
+        <label for="user">Usuario</label>
+        <input type="text" placeholder="ingrese un usuario" id="user">
+    </div>
+    <div class="input-container"> 
+        <label for="passwd">Contraseña</label>
+        <input type="text" placeholder="ingrese su contraseña" id="passwd">
+    </div>
+    <!--checkbox-->
+    <div class="check-container">
+        <input type="checkbox" name="remember" id="remember">
+      <label for="remember">recordar contraseña</label>  
+    </div>
+    <!--boton-->
+    <div class="btn-container">
+        <button>iniciar sesion</button>
+    </div>
+</div>
+</section>
 
-
-    <label for="correo"></label>
-    <input id="correo" name="correo" type="email" placeholder="ingresa tu correo elctronico" required> <br><br>
-
-
-    <label for="contraseña"></label>
-    <input id="contrasena" name="contrasena" type="password" placeholder="ingresa tu contrasena" required><br><br>
-
-
-    <label for="¿cual es tu pasatiempo?">¿cual es tu pasatiempo?</label>
-    
-    <select name="pasatiempos" id="pasatiempos">
-        <option value="estudiar">estudiar</option>
-        <option value="escucharmusica">escuchar musica</option>
-        <option value="hacerdeporte">hacer deporte</option>
-        
-
-    </select>
-
-    <p>¿cual es tu genero de pelicula favorito?</p>
-    
-<input id="terror" value="terror" type="checkbox">
-<label for="terror">terror</label>
-
-<input id="comedia" value="comedia" type="checkbox">
-<label for="comedia">comedia</label>
-
-<input id="romance" value="romance" type="checkbox">
-<label for="romance">romance</label> <br> <br>
-
-<label for="fecha de nacimiento">fecha de nacimiento</label>
-<input id="fechadenacimiento" name="fechadenacimiento" type="date"> <br> <br>
-
-
-<p>¿cual es tu genero?</p>
-
-<input id="mujer" name="genero" value="mujer" type="radio">
-<label for=>mujer</label>
-
-
-<input id="hombre" name="genero" value="hombre" type="radio">
-<label for=>mujer</label> <br> <br>
-
-<textarea name="" id="" cols="30" rows="10"></textarea>
-<placeholder>ingresa tu comentario</placeholder> <br> <br>
-<button>enviar</button>
-
-<img src="imagenes/rickvergilius-IgD16NlKjdo-unsplash (1).jpg" alt="flores"width="250" height="auto" >
-</form>
-    
 </body>
 </html>
